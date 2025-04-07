@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UVCE TATVA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>UVCE TATVA</h1>
+    <h2 class="design">Let us check how much you know about TATVA</h2>
+    
+    <!-- Question Section -->
+    <div id="question-container">
+      <p id="question-text">When was tatva started</p>
+      <ul id="options">
+        <li><button class="option" onclick="checkAnswer(1)">2008</button></li>
+        <li><button class="option" onclick="checkAnswer(2)">2009</button></li>
+        <li><button class="option" onclick="checkAnswer(3)">2010</button></li>
+        <li><button class="option" onclick="checkAnswer(4)">2011</button></li>
+      </ul>
+    </div>
+
+    <!-- Score Section -->
+    <div id="score-container" style="display:none;">
+        <h2>Your Score: <span id="score">0</span>/10</h2>
+        <div id="display">
+        <h3><ul>Correct Answers:</ul>
+        <ul>An acting club</ul>
+        <ul>2013</ul>
+        <ul>Rohit and Sumanth</ul>
+        <ul>Kagada</ul>
+        <ul>Taranga</ul>
+        <ul>9 times</ul>
+        <ul>Theater Titans</ul>
+        <ul>Talent Tiles</ul>
+        <ul>Vaibhava</ul>
+        <ul>AIT</ul>
+    </h3>
+        </div>
+<!-- answer section -->
+
+        
+    
+        <ul id="correct-answers"></ul>
+        <button onclick="restartQuiz()">Restart</button>
+      </div>
+    </div>
+
+  <script src="utility.js"></script>
+</body>
+</html>

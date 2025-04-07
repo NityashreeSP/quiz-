@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-color: lab(61.64% -27.52 -11.35);
+    background-image: url(tatva1.png);
+    
+    background-size: 200px 100px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    
+  }
+
+
+  #question-text{
+    font-size: 2em;
+    color: rgb(244, 246, 247);
+  }
+  
+  .quiz-container {
+    background-color: rgb(180, 11, 11);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: rgb(109, 184, 250);
+  }
+  
+  #options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .option {
+    background-color: #5f9ce6;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #45a049;
+  }
+  
+  #score-container {
+    text-align: left;
+  }
+
+  
+  .design{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+  }
+
+  #display{
+    background-color: rgb(0, 119, 255);
+    color: aliceblue;
+    font-size: small;
+    text-align: left;
+  }
